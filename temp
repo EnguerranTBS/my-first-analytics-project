@@ -15,4 +15,3 @@ st.line_chart(line_data)
 #Generate random data for scatter chart
 chart_data=pd.DataFrame(np.random.randn(20,3),columns=['a','b','c'])
 st.scatter_chart(chart_data)
-
